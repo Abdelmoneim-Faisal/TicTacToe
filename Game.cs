@@ -206,14 +206,6 @@ namespace TicTacToe
                     MessageBox.Show("It's a draw");
                     boardDisabled();
                     btn_newGame.Enabled = true;
-                    if (turn == 1)
-                    {
-                        turn = 2;
-                    }
-                    else
-                    {
-                        turn = 1;
-                    }
                 }
 
             }
